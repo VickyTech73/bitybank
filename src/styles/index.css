@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+:root {
+  --main-font: 'Quicksand', sans-serif;
+}
+
+* {
+  font-family: var(--main-font);
+  padding: 0;
+  margin: 0;
+  background-position: center;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px 40px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+  margin-left: -20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.password-container {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.notfound {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url('https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif') no-repeat center;
+  text-align: center;
+}
+
+.notfound h1 {
+  font-size: 5rem;
+  margin-top: 0;
+  text-shadow: 0px 0px 10px #1717ffab;
+}
+
+.notfound h2 {
+  font-size: 2rem;
+}
+.notfound p {
+  font-size: 1.15rem;
+  animation: follow 12s infinite ease-in-out;
+}
+
+.notfound a {
+  margin-top: 15%;
+}
+
+@keyframes follow {
+  80%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.login {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .notfound a {
+    margin-top: 60%;
+  }
+}
