@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/bitybank/static/css/main.7e6e1e9a.css",
-    "main.js": "/bitybank/static/js/main.0b888f60.js",
+    "main.js": "/bitybank/static/js/main.91a7b749.js",
     "index.html": "/bitybank/index.html",
     "main.7e6e1e9a.css.map": "/bitybank/static/css/main.7e6e1e9a.css.map",
-    "main.0b888f60.js.map": "/bitybank/static/js/main.0b888f60.js.map"
+    "main.91a7b749.js.map": "/bitybank/static/js/main.91a7b749.js.map"
   },
   "entrypoints": [
     "static/css/main.7e6e1e9a.css",
-    "static/js/main.0b888f60.js"
+    "static/js/main.91a7b749.js"
   ]
 }
